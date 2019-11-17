@@ -1,0 +1,141 @@
+
+<!--<!DOCTYPE html>
+<html>
+<head>
+  <title>Details</title>
+</head>
+<body>
+<form>
+  Enter Username:<br>
+  <input type="text" name="username"><br>
+
+</form>
+
+</body>
+</html>-->
+
+
+<!DOCTYPE html>
+<html>
+<style>
+  
+
+  .button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  }
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #D88F00;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: underline;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type=text], input[type=email], input[type=tel] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: blue;
+}
+
+p {
+  color: #f57842;
+}
+
+h2 {
+  color: #f54275;
+  text-decoration: underline;
+}
+body {
+  color: green;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  color: grey;
+}
+
+
+</style>
+<body>
+ <img src="/static/ksp.jpg" alt="Karnataka State Police" class = center >
+
+ <h1 align="center">"Open Source INTelligence"</h1>
+<center>
+<fieldset>
+<legend><h2>TheThirdEye</h2></legend><br>
+<legend><h3>Exhaustive Search</h3></legend>
+<form action="/exhaust" method="post" enctype="multipart/form-data">
+  <p class="center">Full Name:</p>
+  <input class = "center" type="text" name="username" required><br>
+    <p class="center">Enter image Folder:</p>
+    <input class = "center" type="text" name="fileToUpload" id="fileToUpload" required><br>
+    <!-- <input class = "center" type="submit" value="Upload Image" name="submit"><br> -->
+    
+    <input class = "button" type="submit" value="Submit">
+
+</form>
+<center><a href="{{profurl}}">{{profurl}}</a></center>
+<br><br><br>
+
+
+<hr>
+
+
+<legend><h3> Efficient Search </h3> </legend><br>
+<form action="/efficient" method="post" enctype="multipart/form-data">
+  
+    <p class="center"> Enter Email/Mobile Number: </p>
+    <input class = "center" type="email" name="Email" required><br>
+  
+    <input class = "button" type="submit" value="Submit">
+    
+
+</form>
+<center><a href="">{{eprofurl}}</a></center>
+<br><br><br>
+
+<hr>
+
+<legend><h3> Information Search</h3></legend><br>
+<form action="/fbabout" method="post" enctype="multipart/form-data">
+  <p class="center"> Enter FaceBook Link:</p>
+  <input class = "center" name="fb" type="text" required><br>
+    <input class = "button" type="submit" value="Submit">
+    
+
+</form>
+
+</fieldset>
+</center>
+
+</body>
+</html>
+
